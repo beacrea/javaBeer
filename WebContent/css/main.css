@@ -1,0 +1,56 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+/* **********
+GLOBAL STYLES
+********** */
+html { background-color: #111; height: 100%; overflow: auto; }
+body { 
+	font-size: 16px;
+	overflow: hidden;
+	color: #fff;
+	background: url(http://www.507fitness.com/wp-content/uploads/2013/04/beer.jpeg) center no-repeat fixed;
+	background-size: cover;
+	min-height: 40em;
+}
+li { list-style: none; }
+footer { text-align: center; background: rgba(10,10,10,0.8); margin-bottom: 1em; }
+.Absolute-Center {
+	bottom: 0;
+	height: 100px;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100px;
+}
+
+/* ****************
+BEER DEMO V1 STYLES
+**************** */
+.mainApp { padding: 1em 0; }
+.beerView { height: 100%; position: relative; }
+.beerPanel{
+	background: rgba(10,10,10,0.5);
+	bottom: 0;
+	height: 14em;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+}
+.beerPanel h1 { font-family: 'Lobster', cursive; font-size: 5em; }
+
+/* ********
+BEER CREATE
+******** */
+.form-control { margin-bottom: 1em; }
+
+/* ******
+BEER LIST
+****** */
+.beerList body { display: none; }
+.beerList table { margin-top: 1em; background: rgba(10,10,10,0.75); display: none; }
+.beerList thead { background: rgba(192, 141, 32, 0.25); font-family: 'Lobster', cursive; font-size: 1.5em; }
